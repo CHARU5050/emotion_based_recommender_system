@@ -1,0 +1,144 @@
+
+body{
+
+    color:rgb(7, 7, 42);
+}
+
+.navbar {
+    background: rgb(7,7,42);
+    font-size: 1.4rem;
+    
+}
+
+footer{
+  margin-top:5rem;
+  background: rgb(7,7,42) ;
+  color:white;
+  padding: 2rem;
+}
+
+footer svg{
+  font-size: 4rem;
+  margin: .5rem;
+  cursor: pointer;
+ 
+  
+}
+
+.navbar a{
+    color:white;
+}
+.navbar-nav .nav-link.active{
+    color:#fc0254;
+}
+
+
+.cardcontainer {
+    width: 22rem;
+    height: 30rem;
+    perspective: 800px;
+  }
+  .cardcontainer:hover > .card {
+    cursor: pointer;
+    transform: rotateY(180deg);
+  }
+  
+  .card {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+    --bs-card-border-width: none;
+  }
+  
+  .front,
+  .back {
+    height: 100%;
+    width: 100%;
+    border-radius: 1rem;
+  
+    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+    position: absolute;
+    backface-visibility: hidden;
+  }
+  
+  .front.music {
+    background-image: url(./images/home/im.avif);
+    background-size: cover; 
+    background-position: center center;
+  }
+  .front.movie{
+    background-image: url(./images/home/im2.jpg);
+    background-size: cover; 
+    background-position: center center;
+  }
+  
+  .front.book{
+    background-image: url(./images/home/im.jpg);
+    background-size: cover; 
+    background-position: center center;
+  }
+  
+  .back {
+    background-color: ffffff;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+  }
+    
+  
+  footer{
+    width: 100%;
+  }
+
+  .cardcontainer p{
+    text-align: center;
+  }
+.card{
+  background-color: rgb(7,7,42);;
+  
+}
+  .card h4{
+    font-size: 2.5rem;
+    color:#fc0254;;
+    text-transform: uppercase;
+  }
+
+  .card p{
+    color:white;
+    font-size: 1rem;
+  }
+  .card a{
+    height:3rem;
+    width:90%;
+    padding:10px;
+    background: linear-gradient(rgb(231, 100, 100),orangered);
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .navbar a:hover{
+    color:#fc0254;
+}
+
+
+.navbar img{
+  height: 3.5rem;
+  width:5rem;
+  padding: 0px;
+  margin: 0;
+}
+.navbar-brand{
+  margin: 0;
+  padding: 0;
+}
+
+.address h5{
+  color:red;
+}

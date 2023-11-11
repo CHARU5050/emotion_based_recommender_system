@@ -1,0 +1,150 @@
+
+    html,
+    body {
+      position: relative;
+      height: 100%;
+      background: white;
+    }
+
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    .swiper {
+      width: 100%;
+      height:100%;
+    }
+
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height:100%;
+  
+    }
+    .content{
+        text-transform:capitalize;
+        position: absolute;
+        top:22%;
+        z-index:33;
+        font-size:5rem;
+        font-family: 'Lobster', cursive;
+        padding: 2rem;
+        padding-left: 4rem;
+
+    }
+
+    .content h1{
+        font-size: 5rem;
+        
+    }
+    *{
+      padding: 0;
+      margin: 0;
+    }
+    
+    
+    .navbar {
+    background: rgb(7,7,42);
+    font-size: 1.4rem;
+    position: absolute;
+    z-index: 44;
+    width: 100%;
+    
+}
+.navbar a{
+    color:white;
+}
+.navbar-nav .nav-link.active{
+    color:#fc0254;
+}
+.recommend{
+    text-decoration: none;
+    background:rgb(7,7,42);
+    border-radius: 3px;
+    width:3rem;
+    height:4rem;
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-transform: capitalize;
+    color:white;
+}
+
+.navbar a:hover{
+  color:#fc0254;
+}
+
+
+.navbar img{
+height: 3.5rem;
+width:5rem;
+padding: 0px;
+margin: 0;
+}
+.navbar-brand{
+margin: 0;
+padding: 0;
+}
+
+
+
+footer{
+  margin-top:5rem;
+  background: rgb(7,7,42) ;
+  color:white;
+  padding: 2rem;
+}
+
+footer svg{
+  font-size: 4rem;
+  margin: .5rem;
+  cursor: pointer;
+ 
+  
+}
+
+.details{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem;
+  background: white;
+  
+}
+
+.details-img img{
+  border-radius: 50%;
+  height:25rem;
+  width: 30rem;
+  margin-right: 2rem;
+  
+  
+}
+.details-content  h1{
+  font-size: 3rem;
+  text-transform:uppercase ;
+  font-weight: 600;
+  text-align: center;
+  color:red;
+}
+
+.details-content p{
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  text-align: center;
+
+}
+
+.address h5{
+  color:red;
+ 
+}
